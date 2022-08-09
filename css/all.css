@@ -121,9 +121,10 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: absolute;
+  position: fixed;
   top: 0;
   width: 100%;
+  max-width: 1024px;
   z-index: 10;
   padding: 16px 42px;
   background-color: rgba(0, 0, 0, 0.75);
