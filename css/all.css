@@ -573,10 +573,10 @@ a {
   display: block;
   color: #3d1101;
 }
-.side-bar .active {
+.side-bar li:hover, .side-bar .active {
   background-color: #3d1101;
 }
-.side-bar .active a {
+.side-bar li:hover a, .side-bar .active a {
   color: #FFF;
 }
 

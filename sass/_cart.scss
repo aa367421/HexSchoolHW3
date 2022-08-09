@@ -35,7 +35,7 @@
         }
     }
 
-    .active{
+    li:hover, .active{
         background-color: $theme-color-dark;
 
         a{
