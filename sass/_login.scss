@@ -1,0 +1,96 @@
+.login-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $theme-color-light-1;
+    color: $theme-color-dark;
+    padding: 50px 362px 0px 362px;
+    h2{
+        font-family: NotoSansCJKtc-Black;
+        font-size: 48px;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    p{
+        position: relative;
+        font-family: NotoSansCJKtc-Medium;
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 35px;
+    }
+    > p::after{
+        position: absolute;
+        content: 'LOGIN';
+        display: block;
+        font-family: NotoSansCJKtc-Black;
+        font-weight: bold;
+        font-size: 18px;
+        top: 80px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .form-control{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 300px;
+        border-top: 4px solid #F56C23;
+        padding: 46px 15px 15px 15px;
+
+        label{
+            margin-bottom: 3px;
+            line-height: 21px;
+            position: relative;
+            i{
+                position: absolute;
+                top: 35px;
+                left: 9px;
+                font-size: 15px;
+            }
+        }
+
+        input{
+            outline: none;
+            font-size: 18px;
+            line-height: 32px;
+            background: #FFFFFF;
+            border: 1px solid #CCCCCC;
+            box-shadow: inset 0px 1px 0px 0px #ECECEC;
+            border-radius: 3px;
+            padding-left: 35px;
+            margin-bottom: 15px;
+        }
+        input:focus{
+            box-shadow: inset 0px 0px 3px #000;
+        }
+
+        .password{
+            margin-bottom: 0px;
+        }
+
+        a{
+            font-size: 14px;
+            color: #F56C23;
+            line-height: 19px;
+        }
+
+        .btns{
+            @include btn;
+            justify-content: space-between;
+            input{
+                background-color: #F56C23;
+                line-height: 20px;
+                padding: 6px 48px;
+            }
+            .register-btn{
+                background-color: rgba(0,0,0,0.35);
+                margin-right: 20px;
+            }
+            input:hover{
+                box-shadow: 0px 0px 3px #000;
+                border-radius: 3px;
+            }
+        }
+    }
+}

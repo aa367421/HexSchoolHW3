@@ -1,0 +1,119 @@
+.register-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $theme-color-light-1;
+    color: $theme-color-dark;
+    padding: 50px 202px 0px 202px;
+
+    h2{
+        font-family: NotoSansCJKtc-Black;
+        font-size: 48px;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    p{
+        position: relative;
+        font-family: NotoSansCJKtc-Medium;
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 35px;
+    }
+    > p::after{
+        position: absolute;
+        content: 'REGISTER';
+        display: block;
+        font-family: NotoSansCJKtc-Black;
+        font-weight: bold;
+        font-size: 18px;
+        top: 80px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .register-form{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        max-width: 620px;
+        border-top: 4px solid #F56C23;
+        padding: 45px 15px 15px 15px;
+        box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.16);
+
+        .rule{
+            width: 50%;
+            max-width: 285px;
+            margin-right: 20px;
+            p{
+                font-family: MicrosoftJhengHeiRegular;
+                line-height: 19px;
+                font-size: 16px;
+                font-weight: unset;
+                span{
+                    font-size: 18px;
+                    line-height: 24px;
+                }
+            }
+        }
+
+        .form-control{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            max-width: 285px;
+            label{
+                margin-bottom: 3px;
+                line-height: 21px;
+                position: relative;
+                i{
+                    position: absolute;
+                    top: 35px;
+                    left: 9px;
+                    font-size: 15px;
+                }
+                .password-again-lock{
+                    top: 83px;
+                }
+            }
+            input{
+                outline: none;
+                font-size: 18px;
+                line-height: 32px;
+                background: #FFFFFF;
+                border: 1px solid #CCCCCC;
+                box-shadow: inset 0px 1px 0px 0px #ECECEC;
+                border-radius: 3px;
+                padding-left: 35px;
+                margin-bottom: 15px;
+            }
+            input:focus{
+                box-shadow: inset 0px 0px 3px #000;
+            }
+
+            .password{
+                margin-bottom: 12px;
+            }
+            .password-again{
+                margin-bottom: 0px;
+            }
+            a{
+                font-size: 14px;
+                color: #F56C23;
+                line-height: 19px;
+            }
+
+            .btns{
+                @include btn;
+                input{
+                    background-color: #F56C23;
+                    line-height: 20px;
+                    padding: 6px 48px;
+                }
+                input:hover{
+                    box-shadow: 0px 0px 3px #000;
+                    border-radius: 3px;
+                }
+            }
+        }
+    }
+}
