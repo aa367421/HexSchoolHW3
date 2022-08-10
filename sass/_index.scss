@@ -4,7 +4,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    
     padding: 50px 62px;
 
     h2{
@@ -57,6 +56,14 @@
             }
         }
     }
+
+    @include pad{
+        padding: 50px 28px;
+
+        .feature-cards li p{
+            max-width: 196px;
+        }
+    }
 }
 
 .main-chef{
@@ -84,6 +91,17 @@
         }
         p{
             line-height: 21px;
+        }
+    }
+    @include pad{
+        .main-chef-img{
+            width: 50%;
+            max-width: 373px;
+        }
+        .main-chef-information{
+            width: 50%;
+            max-width: 330px;
+            margin: 49px 0px;
         }
     }
 }
@@ -145,6 +163,9 @@
             }
         }
     }
+    @include pad{
+        padding: 50px 10px;
+    }
 }
 
 .reserve{
@@ -162,7 +183,7 @@
 
     .reserve-information{
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         width: 100%;
 
         .map-img{
@@ -234,6 +255,17 @@
                     }
                 }
             }
+        }
+    }
+    @include pad{
+        padding: 50px 10px;
+
+        .map-img{
+            display: flex;
+            width: 55%;
+        }
+        .reserve-form{
+            width: 45%;
         }
     }
 }

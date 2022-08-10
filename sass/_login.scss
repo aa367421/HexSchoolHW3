@@ -5,6 +5,14 @@
     background-color: $theme-color-light-1;
     color: $theme-color-dark;
     padding: 50px 362px 0px 362px;
+
+    @include pad{
+        padding: 50px 101px 0px 101px;
+        .login-form{
+            width: 75%;
+        }
+    }
+
     h2{
         font-family: NotoSansCJKtc-Black;
         font-size: 48px;
@@ -36,8 +44,12 @@
         width: 100%;
         max-width: 300px;
         border-top: 4px solid #F56C23;
+        box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.16);
         padding: 46px 15px 15px 15px;
 
+        @include pad{
+            max-width: unset;
+        }
         label{
             margin-bottom: 3px;
             line-height: 21px;

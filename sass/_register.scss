@@ -6,6 +6,10 @@
     color: $theme-color-dark;
     padding: 50px 202px 0px 202px;
 
+    @include pad{
+        padding: 50px 101px 0px 101px;
+    }
+
     h2{
         font-family: NotoSansCJKtc-Black;
         font-size: 48px;
