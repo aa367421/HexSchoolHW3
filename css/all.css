@@ -146,7 +146,7 @@ a {
   background-size: 100%;
   background-repeat: no-repeat;
 }
-@media (max-width: 390px) {
+@media (max-width: 425px) {
   .banner {
     height: 420px;
     padding-bottom: 0;
@@ -191,7 +191,7 @@ a {
     line-height: 18px;
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 425px) {
   .slogan {
     width: 85%;
     padding: 6px;
@@ -225,7 +225,7 @@ a {
     padding: 16px 13px;
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 425px) {
   .navbar {
     padding: 15px 13px;
   }
@@ -288,7 +288,7 @@ a {
   -webkit-transition: all 3s;
   transition: all 3s;
 }
-@media (max-width: 390px) {
+@media (max-width: 425px) {
   .nav .burger {
     display: block;
   }
@@ -339,7 +339,7 @@ a {
     padding: 54px 10px;
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 425px) {
   .footer {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -386,7 +386,7 @@ a {
     font-size: 14px;
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 425px) {
   .footer-information {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -457,7 +457,7 @@ a {
 .footer-logo .social-media ul .facebook-icon {
   color: #3A5795;
 }
-@media (max-width: 390px) {
+@media (max-width: 425px) {
   .footer-logo {
     -webkit-box-align: end;
         -ms-flex-align: end;
@@ -560,7 +560,7 @@ a {
     max-width: 196px;
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 425px) {
   .feature {
     padding: 50px 30px;
   }
@@ -625,7 +625,7 @@ a {
     margin: 49px 0px;
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 425px) {
   .main-chef {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -718,7 +718,7 @@ a {
     padding: 50px 10px;
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 425px) {
   .guest-review .guest-review-cards {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -862,7 +862,7 @@ a {
     width: 45%;
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 425px) {
   .reserve h2 {
     margin-bottom: 30px;
   }
@@ -896,7 +896,7 @@ a {
     padding: 48px 10px 0px 10px;
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 425px) {
   .cart-section {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -946,7 +946,7 @@ a {
     font-size: 18px;
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 425px) {
   .side-bar {
     max-width: unset;
     margin-bottom: 24px;
@@ -971,7 +971,7 @@ a {
           flex-direction: column;
   margin-left: 20px;
 }
-@media (max-width: 390px) {
+@media (max-width: 425px) {
   .product-section {
     margin-left: 0px;
   }
@@ -1068,7 +1068,7 @@ a {
     font-size: 24px;
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 425px) {
   .top-bar {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1238,7 +1238,7 @@ a {
     margin-bottom: 30px;
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 425px) {
   .product-list li {
     width: 100%;
     max-width: unset;
@@ -1278,7 +1278,7 @@ a {
     padding: 50px 101px 0px 101px;
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 425px) {
   .register-section {
     padding: 50px 10px 0px 10px;
   }
@@ -1418,7 +1418,7 @@ a {
           box-shadow: 0px 0px 3px #000;
   border-radius: 3px;
 }
-@media (max-width: 390px) {
+@media (max-width: 425px) {
   .register-section .register-form {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1464,7 +1464,7 @@ a {
     width: 75%;
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 425px) {
   .login-section {
     padding: 50px 10px 0px 10px;
   }
