@@ -9,6 +9,9 @@
     @include pad{
         padding: 50px 101px 0px 101px;
     }
+    @include phone{
+        padding: 50px 10px 0px 10px;
+    }
 
     h2{
         font-family: NotoSansCJKtc-Black;
@@ -116,6 +119,23 @@
                 input:hover{
                     box-shadow: 0px 0px 3px #000;
                     border-radius: 3px;
+                }
+            }
+        }
+        @include phone{
+            flex-direction: column;
+            padding: 55px 10px 15px 10px;
+            .rule{
+                width: 100%;
+                margin-right: unset;
+                p{
+                    margin-bottom: 20px;
+                }
+            }
+            .form-control{
+                width: 100%;
+                .btns{
+                    margin-top: 15px;
                 }
             }
         }

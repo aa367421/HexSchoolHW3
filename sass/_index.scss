@@ -64,6 +64,24 @@
             max-width: 196px;
         }
     }
+    @include phone{
+        padding: 50px 30px;
+        h2::before{
+            display: none;
+        }
+        h2::after{
+            display: none;
+        }
+        .feature-cards{
+            flex-direction: column;
+            li{
+                margin: 10px 0px;
+                p{
+                    max-width: 260px;
+                }
+            }
+        }
+    }
 }
 
 .main-chef{
@@ -102,6 +120,19 @@
             width: 50%;
             max-width: 330px;
             margin: 49px 0px;
+        }
+    }
+    @include phone{
+        flex-direction: column;
+        .main-chef-img{
+            width: 100%;
+            max-width: unset;
+        }
+        .main-chef-information{
+            width: 100%;
+            max-width: unset;
+            margin: unset;
+            padding: 30px;
         }
     }
 }
@@ -165,6 +196,22 @@
     }
     @include pad{
         padding: 50px 10px;
+    }
+    @include phone{
+        .guest-review-cards{
+            flex-direction: column;
+            li{
+                margin-bottom: 30px;
+                .guest-information{
+                    margin-bottom: 0px;
+                }
+                .guest-review-text{
+                    p{
+                        margin-bottom: 16px;
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -267,6 +314,22 @@
         .reserve-form{
             width: 45%;
         }
+    }
+    @include phone{
+        h2{
+            margin-bottom: 30px;
+        }
+        .reserve-information{
+            flex-direction: column;
+            .map-img{
+                width: 100%;
+                margin-bottom: 30px;
+            }
+            .reserve-form{
+                width: 100%;
+            }
+        }
+        
     }
 }
 

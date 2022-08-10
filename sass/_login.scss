@@ -12,6 +12,12 @@
             width: 75%;
         }
     }
+    @include phone{
+        padding: 50px 10px 0px 10px;
+        .login-form{
+            width: 100%;
+        }
+    }
 
     h2{
         font-family: NotoSansCJKtc-Black;
