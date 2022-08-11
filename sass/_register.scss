@@ -127,6 +127,7 @@
             padding: 55px 10px 15px 10px;
             .rule{
                 width: 100%;
+                max-width: unset;
                 margin-right: unset;
                 p{
                     margin-bottom: 20px;
@@ -134,6 +135,7 @@
             }
             .form-control{
                 width: 100%;
+                max-width: unset;
                 .btns{
                     margin-top: 15px;
                 }

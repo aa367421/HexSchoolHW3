@@ -1241,15 +1241,15 @@ a {
 @media (max-width: 425px) {
   .product-list li {
     width: 100%;
-    max-width: unset;
+    max-width: 300px;
     margin-bottom: 30px;
   }
   .product-list li .heart {
     cursor: pointer;
     font-size: 20px;
     position: absolute;
-    top: 9px;
-    left: 30px;
+    top: 10px;
+    left: 12px;
     color: #FFF;
     z-index: 100;
   }
@@ -1428,6 +1428,7 @@ a {
   }
   .register-section .register-form .rule {
     width: 100%;
+    max-width: unset;
     margin-right: unset;
   }
   .register-section .register-form .rule p {
@@ -1435,6 +1436,7 @@ a {
   }
   .register-section .register-form .form-control {
     width: 100%;
+    max-width: unset;
   }
   .register-section .register-form .form-control .btns {
     margin-top: 15px;
